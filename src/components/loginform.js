@@ -39,7 +39,8 @@ fetch("https://staging.hospyta.com/auth/login", requestOptions)
   .then(result => {
     const obj = JSON.parse(result)
     if(obj.status == "success"){
-        toast("Login Successfully!");
+        // toast("Login Successfully!");
+        console.log(obj)
     }
     else{
         toast("Username or Password Invalid!");

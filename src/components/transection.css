@@ -1,0 +1,68 @@
+
+.mydivcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.myDiv{
+    /* background-color: red; */
+    /* padding: 10px; */
+    margin-bottom:  2px;
+    margin-left: 2px;
+    margin-right: 8px;
+    /* border: 1px solid; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  /* padding: 16px; */
+  text-align: center;
+  background-color: white;
+}
+.myDiv:hover{
+    transform: scale(0.9); 
+}
+.contentcontainer{
+    margin-top: 25px;
+}
+.subMyDiv{
+    border-bottom: 1px solid;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+   
+    
+}
+.subMyDivParagraph{
+    text-align: justify;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 15px;
+    padding: 10px;
+}
+.BUTTONS{
+    text-align: center;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  /* display: flex; */
+  font-size: 16px;
+  /* justify-content: center; */
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  /* width: 100%; */
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+button:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+  }
